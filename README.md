@@ -1,2 +1,3 @@
 # ts-basic
-TypeScriptで遊んでみる
+TypeScriptで遊んでみる。
+ついでに、ESLint、Prettier、huskyなどの設定もしてみる。
