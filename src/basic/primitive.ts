@@ -4,4 +4,7 @@ export default function primitiveSample() {
 
   const age = 28
   console.log('primitive sample 2:', typeof age, age)
+
+  const isSingle = true
+  console.log('primitive sample 3:', typeof isSingle, isSingle)
 }
