@@ -7,6 +7,7 @@ export default function unknownSample() {
 
   // const sum = maybeNumber + 10 // NOTE: unknownなのでエラーになる
 
+  // NOTE: typeof使って条件分岐する
   if (typeof maybeNumber === 'number') {
     const sum = maybeNumber + 10
     console.log('unknown sample 3:', typeof sum, sum)
