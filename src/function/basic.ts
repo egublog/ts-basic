@@ -25,3 +25,12 @@ type LogMessage = (message: string) => void
 export const logMessage6: LogMessage = (message: string) => {
   console.log('Function basic sample 6:', message)
 }
+
+// 完全な呼び出しシグネチャ
+type FullLogMessage = {
+  (message: string): void
+}
+
+export const logMessage7: FullLogMessage = (message: string) => {
+  console.log('Function basic sample 7:', message)
+}
