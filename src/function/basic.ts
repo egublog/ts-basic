@@ -7,3 +7,8 @@ export const logMessage = (message: string): void => {
 export function logMessage2(message: string): void {
   console.log('Function basic sample 2:', message)
 }
+
+// 関数式
+export const logMessage3 = function (message: string): void {
+  console.log('Function basic sample 3:', message)
+}
