@@ -15,3 +15,7 @@ export const logMessage3 = function (message: string): void {
 
 // アロー関数の省略記法
 export const logMessage4 = (message: string): void => console.log('Function basic sample 4:', message)
+
+export const alwaysThrowError = (message: string): never => {
+  throw new Error(message)
+}
