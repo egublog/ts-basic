@@ -19,6 +19,7 @@ import { isUserSignedIn, isUserSignedIn2, sumProductsPrice } from './function/pa
 logMessage('Hello TypeScript!')
 logMessage2('Hello')
 logMessage3('TS')
+logMessage4('JS')
 isUserSignedIn('ABC', 'ToraHack')
 isUserSignedIn('DEF')
 isUserSignedIn2('ABC')
