@@ -12,3 +12,6 @@ export function logMessage2(message: string): void {
 export const logMessage3 = function (message: string): void {
   console.log('Function basic sample 3:', message)
 }
+
+// アロー関数の省略記法
+export const logMessage4 = (message: string): void => console.log('Function basic sample 4:', message)
