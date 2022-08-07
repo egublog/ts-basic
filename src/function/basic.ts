@@ -23,5 +23,5 @@ export const alwaysThrowError = (message: string): never => {
 // 呼び出しシグネチャ(省略記法)
 type LogMessage = (message: string) => void
 export const logMessage6: LogMessage = (message: string) => {
-  console.log('Function basic sample 6:')
+  console.log('Function basic sample 6:', message)
 }
