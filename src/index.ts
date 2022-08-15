@@ -27,3 +27,7 @@
 // isUserSignedIn2('ABC')
 // const sum = sumProductsPrice(100, 200, 300, 400, 500, 600, 700, 800, 900, 1000) // NOTE: 何個でも引数を渡せる
 // console.log(sum)
+
+// ジェネリック型とポリモーフィズム
+import genericsBasicSample from 'generics/basic'
+genericsBasicSample()
