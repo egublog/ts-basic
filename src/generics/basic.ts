@@ -19,4 +19,9 @@ export default function genericsBasicSample() {
   }
 
   console.log('Generics basic sample 2:', numberReduce([100, 200, 300], 1000))
+
+  type Reduce = {
+    (array: string[], initialValue: string): string
+    (array: number[], initialValue: number): number
+  }
 }
