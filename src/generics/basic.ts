@@ -24,4 +24,17 @@ export default function genericsBasicSample() {
     (array: string[], initialValue: string): string
     (array: number[], initialValue: number): number
   }
+
+  type GenericReduce<T> = {
+    (array: T[], initialValue: T): T
+  }
+
+  const genericStringReduce: GenericReduce<string> = (array, initialValue) => {
+    let result = initialValue
+    for (let i = 0; i < array.length; i++) {
+      result += array[i]
+    }
+    return result
+  }
+  console.log('Generics basic sample 3:', genericStringReduce(['May', 'the', 'force', 'be', 'with', 'you'], ''))
 }
