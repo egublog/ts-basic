@@ -26,6 +26,7 @@ export default function genericsBasicSample() {
     (array: number[], initialValue: number): number
   }
 
+  // ジェネリック型を使う場合
   type GenericReduce<T> = {
     (array: T[], initialValue: T): T
   }
