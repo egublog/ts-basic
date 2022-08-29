@@ -51,5 +51,8 @@ export default function genericsBasicSample() {
 
   // 色々なジェネリック型の定義方法
   // 完全な呼び出しシグネチャ(ここのシグネチャにジェネリック型を割り当てる)
-  type
+  type GenericReduce2 = {
+    <T>(array: T[], initialValue: T): T
+    <U>(array: U[], initialValue: U): U
+  }
 }
