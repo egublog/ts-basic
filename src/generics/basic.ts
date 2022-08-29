@@ -48,4 +48,8 @@ export default function genericsBasicSample() {
     return result
   }
   console.log('Generics basic sample 4:', genericNumberReduce([100, 200, 300], 1000))
+
+  // 色々なジェネリック型の定義方法
+  // 完全な呼び出しシグネチャ(ここのシグネチャにジェネリック型を割り当てる)
+  type
 }
