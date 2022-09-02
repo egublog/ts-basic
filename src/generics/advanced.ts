@@ -10,7 +10,7 @@ export default function genericsAdvancedSample() {
     return result
   }
 
-  const numbers = mapStringsToNumbers(['123', '456', '789', ''], (item) => Number(item))
+  const numbers = mapStringsToNumbers(['123', '456', '789', '101112'], (item) => Number(item))
   console.log('Generics advanced sample 1:', numbers)
 
   const mapNumbersToStrings: Map<number, string> = (array, fn) => {
