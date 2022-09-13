@@ -54,6 +54,7 @@ class Osho extends Piece {
   }
 }
 
+// Pieceクラスを継承したFuクラスを宣言
 class Fu extends Piece {
   canMoveTo(position: Position, player: Player): boolean {
     const distance = this.position.distanceFrom(position, player)
