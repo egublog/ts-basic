@@ -63,7 +63,7 @@ class Fu extends Piece {
   }
 }
 
-// Fuクラスを継承したKyoshaクラスを宣言
+// Fuクラスを継承したNarikinクラスを宣言
 class NariKin extends Fu {
   canMoveTo(position: Position, player: Player): boolean {
     const distance = this.position.distanceFrom(position, player)
