@@ -76,6 +76,7 @@ class NariKin extends Fu {
   }
 }
 
+// Gameクラス
 class Game {
   private pieces = Game.makePieces()
   private static makePieces() {
