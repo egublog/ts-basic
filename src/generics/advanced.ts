@@ -1,6 +1,6 @@
 export default function genericsAdvancedSample() {
   // map関数のシグネチャ
-  type Map<T, U> = (array: T[], fn: (item: T) => U) => U[]
+  type Map<T, U> = (array: T[], fn: (item: T) => U) => U[] // NOTE: コールバック関数
 
   const mapStringsToNumbers: Map<string, number> = (array, fn) => {
     const result = []
