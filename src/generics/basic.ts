@@ -57,6 +57,6 @@ export default function genericsBasicSample() {
   }
 
   // 呼び出しシグネチャの省略記法
-  type GenericReduce3<T> = (array: T[], initialValue: T) => T
+  type GenericReduce3<T> = (array: T[], initialValue: T) => T // NOTE: アロー関数ではない
   type GenericReduce4 = <T>(array: T[], initialValue: T) => T
 }
