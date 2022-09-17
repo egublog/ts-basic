@@ -3,5 +3,5 @@ export default function objectSample() {
     name: 'John',
     age: 30,
   }
-  // a.nameは使えない。何故なら、aはただのobject型であるから。
+  // NOTE: a.nameは使えない。何故なら、aはただのobject型であるから。
 }
