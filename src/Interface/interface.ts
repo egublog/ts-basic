@@ -1,0 +1,3 @@
+interface Bread {
+  calories: number
+}
