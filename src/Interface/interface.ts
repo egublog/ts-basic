@@ -2,6 +2,7 @@ interface Bread {
   calories: number
 }
 
+// interfaceによる宣言のマージ
 interface Bread {
   type: string
 }
