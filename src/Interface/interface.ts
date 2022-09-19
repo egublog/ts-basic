@@ -46,3 +46,18 @@ const jump: Magazine = {
   title: '週刊少年ジャンプ',
   cycle: 'weekly',
 }
+
+type BookType = {
+  page: number
+  title: string
+}
+
+interface HandBook extends BookType {
+  theme: string
+}
+
+const cotrip: HandBook = {
+  page: 120,
+  title: 'ことりっぷ',
+  theme: '旅行',
+}
