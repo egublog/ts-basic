@@ -64,6 +64,7 @@ const cotrip: HandBook = {
 
 // implementsを使ったクラスの実装
 class Comic implements Book {
+  // NOTE: Book タイプで定義しているものをプロパティとして定義する必要がある
   page: number
   title: string
 
