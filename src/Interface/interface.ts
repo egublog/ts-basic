@@ -56,6 +56,7 @@ interface HandBook extends BookType {
   theme: string
 }
 
+// ことリップ
 const cotrip: HandBook = {
   page: 120,
   title: 'ことりっぷ',
