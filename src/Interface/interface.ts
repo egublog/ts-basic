@@ -52,6 +52,7 @@ type BookType = {
   title: string
 }
 
+// 型エイリアスの継承が可能であることを確認
 interface HandBook extends BookType {
   theme: string
 }
