@@ -29,8 +29,8 @@
 // console.log(sum)
 
 // ジェネリック型とポリモーフィズム
-import genericsBasicSample from 'generics/basic'
-import genericsAdvancedSample from 'generics/advanced'
+// import genericsBasicSample from 'generics/basic'
+// import genericsAdvancedSample from 'generics/advanced'
 
-genericsBasicSample()
-genericsAdvancedSample()
+// genericsBasicSample()
+// genericsAdvancedSample()
