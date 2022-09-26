@@ -24,6 +24,6 @@ export default function callbackSample() {
     })
   }
 
-  fetchProfile()
-  console.log('Asynchronous Callback Sample 2: プロフィール取得中')
+  const profile = fetchProfile()
+  console.log('Asynchronous Callback Sample 2:', profile)
 }
