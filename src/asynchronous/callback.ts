@@ -3,20 +3,13 @@ export default function callbackSample() {
 
   // コールバックで呼び出す非同期処理
   const fetchProfile = () => {
-    return new Promise((resolve, reject) => {
-      return fetch(url)
-        .then((res) => {
-          // レスポンスボディの読み取りが完了するまで待つ
-          res
-            .json()
-            .then((json) => {
-              console.log('Asynchronous Callback Sample 1:', json)
-              resolve(json)
-            })
-            .catch((error) => {
-              console.error(error)
-              reject(null)
-            })
+    return fetch(url).then((res) => {
+      // レスポンスのBodyをJSONとして読み取り
+      res
+        .json()
+        .then((json) => {
+          console.log('Asynchronous Callback Sample 1:', json)
+          return json
         })
         .catch((error) => {
           console.error(error)
