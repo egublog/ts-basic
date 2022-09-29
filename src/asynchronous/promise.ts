@@ -1,6 +1,11 @@
 export default function promiseSample() {
   const url = 'https://api.github.com/users/egublog'
 
+  type Profile = {
+    login: string
+    id: number
+  }
+
   const fetchProfile = () => {
     return new Promise((resolve, reject) => {
       return fetch(url)
@@ -8,7 +13,7 @@ export default function promiseSample() {
           // レスポンスのBodyをJSONで読み取った結果を返す
           res
             .json()
-            .then((json) => {
+            .then((json: Profile) => {
               console.log('Asynchronous Promise Sample 1:', json)
               resolve(json)
             })
