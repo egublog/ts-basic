@@ -30,4 +30,14 @@ export default function promiseSample() {
         })
     })
   }
+
+  fetchProfile()
+    .then((profile: Profile | null) => {
+      if (profile) {
+        console.log('Asynchronous Promise Sample 2:', profile)
+      }
+    })
+    .catch((error) => {
+      console.error(error)
+    })
 }
