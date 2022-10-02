@@ -1,4 +1,5 @@
 export default function promiseSample() {
+  // NOTE: GitHubのユーザー情報を取得するエンドポイント
   const url = 'https://api.github.com/users/egublog'
 
   type Profile = {
